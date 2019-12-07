@@ -34,7 +34,7 @@ h1, h2, h3 {
   /*height: 100%;
   margin: 0;
   background-repeat: no-repeat;*/
-  background-attachment: fixed;
+  background-attachment: fixed; //Stretching vertical gragient to full height of page
 }
 
 // Nav Styles
@@ -53,6 +53,17 @@ h1, h2, h3 {
   &:hover {
     color: white;
     opacity: 0.75;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #005AA7;
   }
 }
 
